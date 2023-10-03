@@ -1,12 +1,15 @@
-import { render } from '@create-figma-plugin/ui'
+import { render, Container, Text, VerticalSpace, Button } from '@create-figma-plugin/ui'
 import { h } from 'preact'
 import '!./output.css'
+import { emit } from '@create-figma-plugin/utilities'
 
 function Plugin () {
   return (
-    <h1 class="text-3xl font-bold underline">
-      Hello, World!
-    </h1>
+    <Container space='medium'>
+      <VerticalSpace space='medium' />
+      <Button onClick={() => emit("IMPORT")}>Import variables</Button>
+      <VerticalSpace space='medium' />
+    </Container>
   )
 }
 

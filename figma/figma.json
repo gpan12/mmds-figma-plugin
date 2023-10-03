@@ -1,0 +1,34 @@
+{
+  "collections": {
+    "functional/size": [
+      "default"
+    ],
+    "pattern/size": [
+      "default"
+    ],
+    "base/size": [
+      "default"
+    ],
+    "base/color/dark": [
+      "default"
+    ],
+    "base/color/light": [
+      "default"
+    ],
+    "pattern/mode": [
+      "light",
+      "dark"
+    ],
+    "mode": [
+      "light",
+      "dark"
+    ]
+  },
+  "files": [
+    "figma/dimension/dimension.json",
+    "figma/scales/dark.json",
+    "figma/scales/light.json",
+    "figma/themes/dark.json",
+    "figma/themes/light.json"
+  ]
+}
